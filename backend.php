@@ -17,7 +17,7 @@ echo "success";
 
 }
 
-if(isset($_POST['msg_submit'])){
+if(isset($_POST['msg__submit'])){
   $msg_text = $_POST['msg_text'];
   $sender = $_SESSION['name'];
   $link = connect_to_database();
